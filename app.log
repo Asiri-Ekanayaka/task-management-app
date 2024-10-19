@@ -1,0 +1,28 @@
+2024-10-19T10:39:48.863+05:30  INFO 76048 --- [main] com.asiri.tms.TaskAppApplication         : Starting TaskAppApplication using Java 21.0.2 with PID 76048 (/home/asiri/Documents/my-projects/task-app/target/classes started by asiri in /home/asiri/Documents/my-projects/task-app)
+2024-10-19T10:39:48.869+05:30  INFO 76048 --- [main] com.asiri.tms.TaskAppApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-10-19T10:39:50.521+05:30  INFO 76048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19T10:39:50.624+05:30  INFO 76048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 2 JPA repository interfaces.
+2024-10-19T10:39:51.624+05:30  INFO 76048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-10-19T10:39:51.649+05:30  INFO 76048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-19T10:39:51.649+05:30  INFO 76048 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-19T10:39:51.729+05:30  INFO 76048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-19T10:39:51.730+05:30  INFO 76048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2675 ms
+2024-10-19T10:39:51.978+05:30  INFO 76048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19T10:39:52.714+05:30  INFO 76048 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7af327e3
+2024-10-19T10:39:52.718+05:30  INFO 76048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19T10:39:52.933+05:30  INFO 76048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19T10:39:53.077+05:30  INFO 76048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-19T10:39:53.159+05:30  INFO 76048 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-19T10:39:53.727+05:30  INFO 76048 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-19T10:39:53.853+05:30  WARN 76048 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-19T10:39:56.048+05:30  INFO 76048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-19T10:39:56.860+05:30  INFO 76048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19T10:39:57.620+05:30  WARN 76048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19T10:39:58.594+05:30  INFO 76048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-10-19T10:39:58.611+05:30  INFO 76048 --- [main] com.asiri.tms.TaskAppApplication         : Started TaskAppApplication in 11.36 seconds (process running for 14.566)
+2024-10-19T10:42:50.241+05:30  INFO 76048 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-19T10:42:50.243+05:30  INFO 76048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-19T10:42:50.247+05:30  INFO 76048 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-10-19T10:43:44.332+05:30  INFO 76048 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19T10:43:44.336+05:30  INFO 76048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19T10:43:44.353+05:30  INFO 76048 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
